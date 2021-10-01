@@ -2407,9 +2407,17 @@ p#error {
 			margin: 0 0 3em 0;
 			width: 100%;
 		}
+			
 
 			.image.main img {
 				width: 100%;
+				opacity: 0.95;
+			}
+
+			.image.main img:hover {
+				opacity: 1;
+
+
 			}
 
 			@media screen and (max-width: 736px) {
@@ -2423,7 +2431,46 @@ p#error {
 			margin-bottom: 20px;
 		}
 
+
+
 			}
+
+
+			.image.main2 {
+			display: block;
+			margin: 0 0 1.5em 0;
+			width: 100%;
+		}
+			
+
+			.image.main2 img {
+				width: 100%;
+				opacity: 0.9;
+			}
+
+			.image.main2 img:hover {
+				opacity: 1;
+
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				.image.main2 {
+					margin: 0 0 0em 0;
+				}
+
+				.image.left, .image.right {
+			max-width: 50%;
+			margin-bottom: 20px;
+		}
+
+
+
+			}
+
+		 
+
 
 /* Table */
 
@@ -2694,6 +2741,8 @@ p#error {
 			}
 
 		}
+		
+
 /* Tiles2 */
 
 	.tiles2 {
@@ -3122,23 +3171,24 @@ p#error {
 					opacity: 0.9;
 				}
 
+
 				body:not(.is-touch) .tiles article.style1:hover > .image:before {
-					background-color: #e84c3d;
+					background-color: #2c4260;
 					opacity: 0.9;
 				}
 
 				body:not(.is-touch) .tiles article.style2:hover > .image:before {
-					background-color: #B2C9E7;
+					background-color: #e84c3d;
 					opacity: 0.9;
 				}
 
 				body:not(.is-touch) .tiles article.style3:hover > .image:before {
-					background-color: #56CCDB;
+					background-color: #B2C9E7;
 					opacity: 0.9;
 				}
 
 				body:not(.is-touch) .tiles article.style4:hover > .image:before {
-					background-color: #2E2F42;
+					background-color: #56CCDB;
 					opacity: 0.9;
 				}
 
