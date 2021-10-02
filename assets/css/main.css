@@ -2764,8 +2764,8 @@ p#error {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
-			width: calc(25% - 0.5em);
-  			margin: 0.5em 0 0 0.5em;
+			width: calc(33.33% - 1.5em);
+  			margin: 1.5em 0 0 1.5em;
 		}
 
 			.tiles2 article > .image {
