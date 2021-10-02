@@ -2755,7 +2755,7 @@ p#error {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		postiion: relative;
-		margin: -2.5em 0 0 -2.5em;
+		 margin: -1.5em 0 0 -1.5em;
 	}
 
 		.tiles2 article {
