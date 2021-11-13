@@ -2454,6 +2454,10 @@ p#error {
 
 			}
 
+					.image.main2 #image2{
+			   display: none;
+			}
+
 			@media screen and (max-width: 736px) {
 
 				.image.main2 {
@@ -2464,6 +2468,18 @@ p#error {
 			max-width: 50%;
 			margin-bottom: 20px;
 		}
+
+
+
+@media screen and (max-width: 736px){
+   .image.main2 #image1{
+     display: none!important;
+   }
+
+   .image.main2 #image2{
+     display: block;
+   }
+}
 
 
 
