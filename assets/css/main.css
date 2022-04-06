@@ -3175,7 +3175,7 @@ p#error {
 				background-color: #8499e7;
 			}
 
-			body:not(.is-touch) .tiles article:hover > .image {
+			/* body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
 				-webkit-transform: scale(1.1);
 				-ms-transform: scale(1.1);
@@ -3215,7 +3215,7 @@ p#error {
 			body:not(.is-touch) .tiles article:hover .content {
 				max-height: 15em;
 				opacity: 1;
-			}
+			} */
 
 		* + .tiles {
 			margin-top: -2em;
