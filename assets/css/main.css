@@ -2558,7 +2558,7 @@ input[type="radio"] + label:before {
 
 .image.main2 img {
   width: 100%;
-  opacity: 0.9;
+  opacity: 1;
   transition: all 0.3s ease-in-out;
 }
 
