@@ -155,17 +155,6 @@ textarea {
 
 /* ANIMATES */
 
-.reveal{
-  position: relative;
-  transform: translateY(150px);
-  opacity: 0;
-  transition: 1s all ease;
-}
-.reveal.active{
-  transform: translateY(0);
-  opacity: 1;
-}
-
 .animate {
   animation-duration: 0.75s;
   animation-delay: 0.5s;
@@ -202,7 +191,6 @@ textarea {
 .delay-3 {
   animation-delay: 0.8s;
 }
-
 
 /* Basic */
 
