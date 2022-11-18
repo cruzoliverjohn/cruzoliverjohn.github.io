@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Cruz Oliver John</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="icon" href="data:image/svg+xml,
+			
+			<svg
+				xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
+				<text y=%22.9em%22 font-size=%2290%22>🍊</text>
+			</svg>">
+    <noscript>
+      <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+  </head>
+  <body>
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="inner">
+          <!-- Logo -->
+          
+          <!-- Nav -->
+          <nav>
+            <ul>
+              <li>
+                <a href="#menu">Menu</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- Menu -->
+      <nav id="menu">
+        <h2>Menu</h2>
+        <ul>
+          <li>
+            <a class="nav-link" href="https://ojcruzxc.github.io/me/">Home</a>
+          </li>
+          <li>
+            <a class="nav-link" href="bio">Bio</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#footer">Get in touch</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Main -->
+      <div id="main" class="animate glow delay-2">
+        <div class="inner">
+			<form action="jldr.html" onsubmit="return authenticate()">
+			<h2>Password Protected Area</h2>
+		
+			
+				<div class="row gtr-uniform">
+						<p>This content is password-protected. Please verify with a password to unlock the content.</p>
+					<div class="col-12">
+						<input  id="password" type="password" name="password" placeholder="Password" required/>
+					</div>
+					<div class="col-12-xlarge">
+						<button type="submit">Submit</button>
+					</div>
+				</div>
+			</form>
+								
+        </div>
+      </div>
+    
+    </div>
+    <!-- Scripts -->
+	  <script>
+    
+    //Following function gets values of the username and password fields and checks to see if they match a hard coded username and password 
+      function authenticate(){
+        var authorised;
+        
+        //get input values
+       
+        var password = document.getElementById("password").value;
+        
+        //check to see if the password and username match
+        if(password == "pass12345"){
+          authorised = true;
+        }else{ // username or password do not match
+          authorised = false;
+          //alert user
+          alert("Sorry, password is incorrect.");
+        }
+        //return result
+        return authorised;
+      }
+    </script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
