@@ -58,7 +58,7 @@
 				<div class="row gtr-uniform">
 						<p>This content is password-protected. Please verify with a password to unlock the content.</p>
 					<div class="col-12">
-						<input  id="password" type="password" name="password" placeholder="Password" required/>
+						<input  id="secret" type="password" name="password" placeholder="Password" required/>
 					</div>
 					<div class="col-12-xlarge">
 						<button type="submit">Submit</button>
@@ -79,10 +79,10 @@
         
         //get input values
        
-        var password = document.getElementById("password").value;
+        var password = document.getElementById("secret").value;
         
         //check to see if the password and username match
-        if(password == "pass12345"){
+        if(password == "4T@72f"){
           authorised = true;
         }else{ // username or password do not match
           authorised = false;
