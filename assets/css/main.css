@@ -3856,3 +3856,60 @@ body.is-menu-visible #menu .close {
     padding: 0 1.25em;
   }
 }
+
+/*Image Reveal*/
+
+.hovlink{
+  display: flex;
+
+  z-index: 10;
+  
+}
+
+/*.hovlink span {
+  display: block;
+  font-weight: 500;
+  z-index: 10;
+  mix-blend-mode: normal;
+  display: inline-block;
+  position: relative;
+  color: white;
+  font-size: 4rem;
+  text-transform: uppercase;
+
+}*/
+.hovlink > img {
+  mix-blend-mode: normal;
+  z-index: 10;
+}
+
+.hover-reveal {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  pointer-events: none;
+  transform: translate(-10%, -10%);
+  overflow: hidden;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all .5s ease-out;
+}
+
+.hover-reveal img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  transition: transform .4s ease-out;
+}
+
+
+@media (max-width: 768px) {
+ 
+  .hover-reveal {
+    width: 220px;
+    height: 300px;
+  }
+}
